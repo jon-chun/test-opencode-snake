@@ -1,3 +1,4 @@
+"""A simple snake game implemented using the curses library."""
 import curses
 import random
 from collections import deque
@@ -112,7 +113,6 @@ class Game:
         """
         self.stdscr = stdscr
         self.window = curses.newwin(20, 40, 0, 0)
-        self.window.keypad(True)
         self.window.timeout(150)
         self.snake = Snake(self.window)
         self.food = Food(self.window, self.snake.body)

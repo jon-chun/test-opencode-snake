@@ -4,8 +4,8 @@ This document provides instructions for AI coding agents operating in this repos
 
 ## Commands
 
-- **Install dependencies**: `pip install -r requirements.txt`
-- **Run tests**: `pytest`
+- **Install dependencies**: `pip install -r requirements.txt` (Note: This file is currently empty as there are no external dependencies).
+- **Run tests**: `pytest` (Note: No tests have been implemented yet).
 - **Run a single test**: `pytest tests/test_file.py::test_function`
 - **Run linter**: `ruff check .`
 - **Run formatter**: `ruff format .`
